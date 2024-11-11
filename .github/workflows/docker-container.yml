@@ -24,12 +24,12 @@ jobs:
         with:
           context: .
           push: true
-          tags: toetje585/arch-wine-vnc:latest
+          tags: luxxygf/arch-wine-vnc:latest
       -
         name: Sync readme
         uses: ms-jpq/sync-dockerhub-readme@v1
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_WINE_ARCH_VNC }}
-          repository: toetje585/arch-wine-vnc
+          repository: luxxygf/arch-wine-vnc
           readme: "./README.md"
