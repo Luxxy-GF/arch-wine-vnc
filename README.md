@@ -1,4 +1,4 @@
-# arch-wine-vnc
+# arch-wine-vnce
 
 ArchLinux based docker image with wine and vnc support, supports running Windows applications by using Wine. 
 This project is hosted at https://github.com/wine-gameservers/arch-wine-vnc/
